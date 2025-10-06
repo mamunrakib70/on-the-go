@@ -6,14 +6,21 @@
 
 }
 .country-border{
-    border: 2px solid green;
+    border: 2px solid wheat;
     padding: 50px;
+    border-radius: 50px;
 }
 .button{
-    font-size: large;
-    padding: 5px;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: brown;
+    border: none;
+
+
 }
 
 .country-visited{
-    background-color: aqua;
+    background-color: rgb(242, 223, 187);
+    color: black;
 }

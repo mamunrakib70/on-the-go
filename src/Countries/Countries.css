@@ -1,0 +1,10 @@
+.countries{
+    font-size: 100px;
+    font-weight: bold;
+    border: 10px solid wheat;
+    margin: 20px;
+    padding: 80px;
+    border-radius: 40px;
+    text-align: center;
+    color: wheat;
+}

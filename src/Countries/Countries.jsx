@@ -18,7 +18,7 @@ const Countries = ({ fetchCountries }) => {
       <h1 className="countries">Visited Countries: {countries.length}</h1>
       <h1 className="country-border">Total visited countries: {visitedCountries.length}</h1>
 
-      <ol>
+      <ol className="ol">
         {
             visitedCountries.map((country)=>(<li key={country.cca3.cca3}>{country.name.common}</li>))
         }
